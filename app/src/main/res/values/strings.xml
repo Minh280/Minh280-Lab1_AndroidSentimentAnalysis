@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sentiment</string>
+    <string name="positive_sentiment">Positive Sentiment</string>
+    <string name="negative_sentiment">Negative Sentiment</string>
+    <string name="neutral_sentiment">Neutral Sentiment</string>
+    <!-- Hint text for the EditText -->
+    <string name="enter_text_hint">Enter text for sentiment analysis</string>
+
+    <!-- Text for the Analyze Button -->
+    <string name="analyze_button_text">Analyze Sentiment</string>
+
+    <!-- Emoji for TextView (optional, you can also hardcode this directly in layout) -->
+    <string name="emoji_default">🙂</string>
+</resources>

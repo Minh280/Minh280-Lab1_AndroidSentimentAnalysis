@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/layout">
+
+    <!-- EditText for user input -->
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_text_hint"
+        android:inputType="text" />
+
+    <!-- Button to trigger sentiment analysis -->
+    <Button
+        android:id="@+id/analyzeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/analyze_button_text" />  <!-- Using string resource -->
+
+    <!-- TextView to display the emoji for sentiment -->
+    <TextView
+        android:id="@+id/emojiView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="64sp"
+        android:textAlignment="center"
+        android:text="@string/emoji_default" />  <!-- Using string resource -->
+
+</LinearLayout>
